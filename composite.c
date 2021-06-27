@@ -2,7 +2,7 @@
 int main()
 {
 	int n,i,p,d,e,k=1,r,j,c=4;
-	int comp[]={4,6,8,9};
+	int comp[]={4,6,9};
 	printf("Enter a number = ");
 	scanf("%d",&n);
 	while(c!=n && c<n)
