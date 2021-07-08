@@ -20,6 +20,18 @@ int main()
 		{
 			scanf("%d",&price[j]);
 		}
+		for(i=0;i<n;i++)
+		{
+			for(j=i+1;j<n;j++)
+			{
+				if(price[i]>price[j])
+				{
+				temp=price[i];
+				price[i]=price[j];
+				price[j]=temp;
+			    }
+			}
+		}
 		for(j=0;j<n;j++)
 		{
 			sum=price[j]+sum;
